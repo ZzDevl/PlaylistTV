@@ -1,13 +1,10 @@
-#EXTM3U 
-url-tvg="https://raw.githubusercontent.com/apistech/project/refs/heads/main/epgs/guide.xml" refresh="3600"
-
 ==========NASIONAL==========
 
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=251c384e846841abafa1f7c723d57e66:e45b06a38cd261b74c5160f0912c042f 
-#EXTINF:-1 tvg-id="ANTV.id tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-logo="https://images.indihometv.com/assets/88_ANTV_2025_03_17_14_52_46.png" group-title="NASIONAL ",ANTV
+#EXTINF:-1 tvg-id="ANTV.id@SD" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-logo="https://images.indihometv.com/assets/88_ANTV_2025_03_17_14_52_46.png" group-title="NASIONAL ",ANTV
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd
 
 
@@ -16,7 +13,7 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/ind
 #KODIPROP:contentlookup=false
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-#EXTINF:-1 tvg-id="GTV.id" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="GTV" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/logo_gtv_hd.png" group-title="NASIONAL ", GTV
+#EXTINF:-1 tvg-id="GTV.id@SD" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="GTV" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/logo_gtv_hd.png" group-title="NASIONAL ", GTV
 https://rpluz.ben45mcc.workers.dev/index.m3u8?ch=gtv
 
 
@@ -24,7 +21,7 @@ https://rpluz.ben45mcc.workers.dev/index.m3u8?ch=gtv
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
 #KODIPROP:inputstream.adaptive.license_key=764e726a234a435c87a82e4a1da6a69b:0de18199ebb3316e3aed8529e39542b7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="TransTV.id" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-logo="https://images.indihometv.com/assets/88_TRANSTV_2025_03_17_14_51_34.png" group-title="NASIONAL ", Trans TV
+#EXTINF:-1 tvg-id="TransTV.id@SD" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-logo="https://images.indihometv.com/assets/88_TRANSTV_2025_03_17_14_51_34.png" group-title="NASIONAL ", Trans TV
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd
 
 
@@ -32,19 +29,20 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/in
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=78477d2156944b7cb35762a47973aa9c:31805b3c0d03080f9ed33411258e5baf
-#EXTINF:-1 tvg-id="Trans7.id" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="Trans 7" tvg-logo="https://images.indihometv.com/assets/88_TRANS7_2025_03_19_08_29_53.png" group-title="NASIONAL ", Trans7
+#EXTINF:-1 tvg-id="Trans7.id@SD" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="Trans 7" tvg-logo="https://images.indihometv.com/assets/88_TRANS7_2025_03_19_08_29_53.png" group-title="NASIONAL ", Trans7
 https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd
 
 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c3004565365a42d08e3bde39a516d64e:dbfdc0967cfbbed01dba730c99d9c14a
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/ 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 
-#EXTINF:-1 tvg-id="MNCTV.id" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="MNCTV" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/logo_mnc_hd.png" group-title="NASIONAL ", MNCTV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:contentlookup=false
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+#EXTINF:-1 tvg-id="MNCTV.id@SD" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="MNCTV" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/logo_mnc_hd.png" group-title="NASIONAL ", MNCTV
 https://rpluz.ben45mcc.workers.dev/index.m3u8?ch=mnctv
 
 
-#EXTINF:-1 tvg-id="indosiar.id" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-logo="https://images.indihometv.com/assets/88_INDOSIAR_2025_03_17_14_54_45.png" group-title="NASIONAL ",INDOSIAR
+#EXTINF:-1 tvg-id="Indosiar.id@SD" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-logo="https://images.indihometv.com/assets/88_INDOSIAR_2025_03_17_14_54_45.png" group-title="NASIONAL ",INDOSIAR
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -64,7 +62,7 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9e9aba7068ca4c7f8a73381bef5f8742/in
 #KODIPROP:inputstream.adaptive.license_key=c1e5a6713acc4774a622d01177224094:d88b67279524d26984f9c0041442b5c6
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTINF:-1 tvg-id="KompasTV.id" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="Kompas TV" tvg-logo="https://images.indihometv.com/assets/88_KOMPASTV_2025_03_17_14_56_36.png" group-title="NASIONAL ", Kompas TV
+#EXTINF:-1 tvg-id="KompasTV.id@SD" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="Kompas TV" tvg-logo="https://images.indihometv.com/assets/88_KOMPASTV_2025_03_17_14_56_36.png" group-title="NASIONAL ", Kompas TV
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/dafcaf8b26064ae7b27702088240b535/index.mpd
 
 
@@ -72,11 +70,11 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/dafcaf8b26064ae7b27702088240b535/in
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.cnnindonesia.com/
-#EXTINF:-1 tvg-name="CNN INDONESIA" tvg-logo="https://images.indihometv.com/assets/88_CNNINDO_2025_03_17_15_22_37.png" group-title="NASIONAL ",CNN INDONESIA
+#EXTINF:-1 tvg-name="CNNIndonesia.id@SD" tvg-logo="https://images.indihometv.com/assets/88_CNNINDO_2025_03_17_15_22_37.png" group-title="NASIONAL ",CNN INDONESIA
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w909769083_b384000_sleng.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_CNBCINDO_2025_03_17_14_57_27.png" group-title="NASIONAL ", CNBC INDONESIA
+#EXTINF:-1 tvg-name="CNBCIndonesia.id@SD" tvg-logo="https://images.indihometv.com/assets/88_CNBCINDO_2025_03_17_14_57_27.png" group-title="NASIONAL ", CNBC INDONESIA
 #EXTVLCOPT:http-origin=https://www.cnbcindonesia.com
 #EXTVLCOPT:http-referrer=https://www.cnbcindonesia.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
@@ -88,18 +86,18 @@ https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8
 #KODIPROP:contentlookup=false
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-#EXTINF:-1 tvg-id="iNews.id" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="iNews" tvg-logo="https://images.indihometv.com/assets/88_INEWS_2025_03_17_15_13_44.png" group-title="NASIONAL ", iNews
+#EXTINF:-1 tvg-id="iNews.id@SD" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="iNews" tvg-logo="https://images.indihometv.com/assets/88_INEWS_2025_03_17_15_13_44.png" group-title="NASIONAL ", iNews
 https://rpluz.ben45mcc.workers.dev/index.m3u8?ch=inews
 
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_NUSANTARATV_2025_03_17_15_11_54.png" group-title="NASIONAL ", NUSANTARA TV
+#EXTINF:-1 tvg-id="NusantaraTV.id@SD" tvg-logo="https://images.indihometv.com/assets/88_NUSANTARATV_2025_03_17_15_11_54.png" group-title="NASIONAL ", NUSANTARA TV
 #EXTVLCOPT:http-origin=https://www.dens.tv
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://images.indihometv.com/assets/88_MOJI_2025_03_17_15_22_26.png" group-title="NASIONAL ", MOJI TV
+#EXTINF:-1 tvg-id="Moji.id@SD" tvg-logo="https://images.indihometv.com/assets/88_MOJI_2025_03_17_15_22_26.png" group-title="NASIONAL ", MOJI TV
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -107,7 +105,7 @@ https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2f1c4190dcf045c9aafc447d54ef7c91/index.mpd
 
 
-#EXTINF:-1 tvg-id="MDTV.id" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="MDTV" tvg-logo="https://images.indihometv.com/assets/88_MDTV_2025_03_17_14_56_36.png" group-title="NASIONAL ", MDTV
+#EXTINF:-1 tvg-id="MDTV.id@HD" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="MDTV" tvg-logo="https://images.indihometv.com/assets/88_MDTV_2025_03_17_14_56_36.png" group-title="NASIONAL ", MDTV
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -121,7 +119,7 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/3aefa03d32954b678e5faab6daa04b58/in
 #EXTVLCOPT--http-reconnect=true
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=c64493155d8b443c834a13d4970cf834:509294911ac3c2d779ae2225a23460b4
-#EXTINF:-1 tvg-id="MetroTV.my.id" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="MetroTV" tvg-logo="https://images.indihometv.com/assets/88_METROTV_2025_03_17_14_51_08.png" group-title="NASIONAL ", Metro TV
+#EXTINF:-1 tvg-id="MetroTV.id@SD" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="MetroTV" tvg-logo="https://images.indihometv.com/assets/88_METROTV_2025_03_17_14_51_08.png" group-title="NASIONAL ", Metro TV
 https://d2tjypxxy769fn.cloudfront.net/out/v1/fd4360b1c12c4375848c8f085fd51d41/index.mpd
 
 
@@ -130,13 +128,13 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/fd4360b1c12c4375848c8f085fd51d41/in
 #KODIPROP:contentlookup=false
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
-#EXTINF:-1 tvg-id="RCTI.id" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="RCTI" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/logo_rcti_hd.png" group-title="NASIONAL ", RCTI
+#EXTINF:-1 tvg-id="RCTI.id@SD" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="RCTI" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/logo_rcti_hd.png" group-title="NASIONAL ", RCTI
 https://rpluz.ben45mcc.workers.dev/index.m3u8?ch=rcti
 
 
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="RTV.id" tvg-name="RTV" tvg-logo="https://images.indihometv.com/assets/88_RTV_2025_03_17_14_55_38.png" group-title="NASIONAL ", RTV
+#EXTINF:-1 tvg-id="RajawaliTV.id@SD" tvg-name="RTV" tvg-logo="https://images.indihometv.com/assets/88_RTV_2025_03_17_14_55_38.png" group-title="NASIONAL ", RTV
 https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
 
 
@@ -144,11 +142,11 @@ https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=eab667a8f7f14ff7bf00d790314a10f0:1d6693bc942f036053fc1c3c3b3b5032 
-#EXTINF:-1 tvg-id="tvOne.id" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="TVOne" tvg-logo="https://images.indihometv.com/assets/88_TVONE_2025_03_17_14_49_56.png" group-title="NASIONAL ", TVOne
+#EXTINF:-1 tvg-id="tvOne.id@SD" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="TVOne" tvg-logo="https://images.indihometv.com/assets/88_TVONE_2025_03_17_14_49_56.png" group-title="NASIONAL ", TVOne
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f3df48faafaf4198a65b9763140fce30/index.mpd
 
 
-#EXTINF:-1 tvg-id="TVRI.id" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" group-title="NASIONAL " tvg-id="TVRINasional.id" tvg-logo="https://images.indihometv.com/assets/88_TVRI_2025_03_17_14_57_26.png",TVRI Nasional
+#EXTINF:-1 tvg-id="TVRI.id@SD" tvg-url="tvg-url="https://bit.ly/IndonesiaEpg" group-title="NASIONAL " tvg-id="TVRINasional.id" tvg-logo="https://images.indihometv.com/assets/88_TVRI_2025_03_17_14_57_26.png",TVRI Nasional
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://klik.tvri.go.id/
 https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
@@ -158,7 +156,7 @@ https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
 https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8
 
 
-#EXTINF:-1 group-title="NASIONAL " tvg-id="TVRIWorld.id" tvg-logo="https://images.indihometv.com/assets/88_TVRI_2025_03_17_14_57_26.png",TVRI World
+#EXTINF:-1 group-title="NASIONAL " tvg-id="TVRIWorld.id@SD" tvg-logo="https://images.indihometv.com/assets/88_TVRI_2025_03_17_14_57_26.png",TVRI World
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://klik.tvri.go.id/
 https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
@@ -168,14 +166,14 @@ https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=994121840707471a920b2e65bdf21b7e:0033ae3118a0153ad05fc9a066a8805c
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="JTV.id" tvg-name="JTV" tvg-logo="https://images.indihometv.com/assets/88_JTV_2025_03_17_15_01_58.png" group-title="NASIONAL ", JTV
+#EXTINF:-1 tvg-id="JTV.id@SD" tvg-name="JTV" tvg-logo="https://images.indihometv.com/assets/88_JTV_2025_03_17_15_01_58.png" group-title="NASIONAL ", JTV
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/77641c37b4834a9db823ec5137774973/index.mpd
 
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=730bf9b6641f4ca597fd0d2903ffc574:293446fd53697862b165984b860fd7b0
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/88_TV9_2025_03_17_15_01_34.png" group-title="NASIONAL ", TV9 NUSANTARA
+#EXTINF:-1 tvg-id="TV9Nusantara.id@SD" tvg-name="" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/88_TV9_2025_03_17_15_01_34.png" group-title="NASIONAL ", TV9 NUSANTARA
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9688c51b534d4165bf4b0b328e53b980/index.mpd
 
 ==========KIDZ==========
@@ -184,10 +182,10 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9688c51b534d4165bf4b0b328e53b980/in
 #KODIPROP:inputstream.adaptive.license_key=736777e5823249849d71a7d41ddc35aa:f831235372e07e24fb70f7336291c549
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTINF:-1 tvg-id="CBeebies.id" tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="CBeebies HD" tvg-logo="https://iili.io/JmoBN9a.png" group-title="KIDS ", CBeebies
+#EXTINF:-1 tvg-id="CBeebies.uk@SD" tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="CBeebies HD" tvg-logo="https://iili.io/JmoBN9a.png" group-title="KIDS ", CBeebies
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2a5668fb3b9f4e34ab7c02cdc6ef56db/index.mpd
 
-#EXTINF:-1 tvg-logo="https://mimipipi22.github.io/logo/kids/hiphiphoree.jpg" group-title="KIDS ",HIP HIP HOREE!
+#EXTINF:-1 tvg-id="HipHipHoree.id@SD" tvg-logo="https://mimipipi22.github.io/logo/kids/hiphiphoree.jpg" group-title="KIDS ",HIP HIP HOREE!
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 12; sti6140d360 Build/QT) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 TV Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 http://202.169.224.202:8800/udp/239.9.1.28:1234
@@ -196,7 +194,7 @@ http://202.169.224.202:8800/udp/239.9.1.28:1234
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ecd651d0872c46d6b75a902f3b796e6b:3915b032de12140475d2696ae734cf58
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="DreamWorks.id" tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="Dreamworks HD" tvg-logo="https://images.indihometv.com/assets/88_DREAMWORKS_2025_03_17_15_30_24.png" group-title="KIDS ", Dreamworks
+#EXTINF:-1 tvg-id="DreamWorksChannelAsia.us@SD" tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="Dreamworks HD" tvg-logo="https://images.indihometv.com/assets/88_DREAMWORKS_2025_03_17_15_30_24.png" group-title="KIDS ", Dreamworks
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/7518da9041c4414d86f173daa719152e/index.mpd
 
 
@@ -204,7 +202,7 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/7518da9041c4414d86f173daa719152e/in
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c1d5f77cd96049f78b6b253540b31722:ba8d0801fe81187d35633e1d3b3855d5
-#EXTINF:-1 tvg-id="NickJr.id" tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="Nick Jr." tvg-logo="https://images.indihometv.com/assets/88_NICKJR_2025_03_17_14_56_20.png" group-title="KIDS ", Nick Jr
+#EXTINF:-1 tvg-id="NickJrAsia.sg@SD" tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="Nick Jr." tvg-logo="https://images.indihometv.com/assets/88_NICKJR_2025_03_17_14_56_20.png" group-title="KIDS ", Nick Jr
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/27163af9499b4bcca2da96677b158efe/index.mpd
 
 
@@ -212,7 +210,7 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/27163af9499b4bcca2da96677b158efe/ind
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=676b60c2b84b49b6b316207a590203e4:da9878a96062ea105895f310e052fa7b 
-#EXTINF:-1 tvg-id="Nickelodeon.id" tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="Nickelodeon" tvg-logo="https://images.indihometv.com/assets/88_NICKELODEON_2025_03_17_14_57_07.png" group-title="KIDS ", Nickelodeon
+#EXTINF:-1 tvg-id="NickelodeonAsia.sg@SD" tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="Nickelodeon" tvg-logo="https://images.indihometv.com/assets/88_NICKELODEON_2025_03_17_14_57_07.png" group-title="KIDS ", Nickelodeon
 https://d2tjypxxy769fn.cloudfront.net/out/v1/3fe6d9eb97ed455c942eb8d3d1c2c2e8/index.mpd
 
 
@@ -220,7 +218,7 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/3fe6d9eb97ed455c942eb8d3d1c2c2e8/in
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8b62ae389f0944d4a55daaad52de1f9d:ba145a1426491316010da87bfd69de05 
-#EXTINF:0 tvg-id="MoonbugKids.us" tvg-name="Moonbug Kids" tvg-logo="https://images.indihometv.com/logo_moonbug_ver1.png" group-title="KIDS ", Moonbug Kids
+#EXTINF:0 tvg-id="MoonbugKids.uk@SD" tvg-name="Moonbug Kids" tvg-logo="https://images.indihometv.com/logo_moonbug_ver1.png" group-title="KIDS ", Moonbug Kids
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/198f7febb48c4c909d62977d88c195b0/index.mpd
 
 
@@ -228,7 +226,7 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/198f7febb48c4c909d62977d88c195b0/ind
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6f309276a94e45be89a8860159456e84:3fe2eec12885264556ca4e29aa6c0c40
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-id="Animax.id" tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="Animax HD" tvg-logo="https://images.indihometv.com/assets/88_ANIMAX_2025_03_17_15_14_19.png" group-title="KIDS ", Animax
+#EXTINF:-1 tvg-id="AnimaxAsia.sg@SD" tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="Animax HD" tvg-logo="https://images.indihometv.com/assets/88_ANIMAX_2025_03_17_15_14_19.png" group-title="KIDS ", Animax
 https://d84q7nw4qf3j3.cloudfront.net/out/v1/ab3ef0f0e4144c3c8b7e60f1873a3bcc/index.mpd
 
 
@@ -238,7 +236,7 @@ https://d84q7nw4qf3j3.cloudfront.net/out/v1/ab3ef0f0e4144c3c8b7e60f1873a3bcc/ind
 https://cdn10jtedge.indihometv.com/atm/DASH/indikids/manifest.mpd
 
 
-#EXTINF:-1 group-title="KIDS " tvg-logo="https://images.indihometv.com/assets/88_MENTARITV_2025_03_17_15_21_21.png", Mentari TV
+#EXTINF:-1 tvg-id="MentariTV.id@SD" group-title="KIDS " tvg-logo="https://images.indihometv.com/assets/88_MENTARITV_2025_03_17_15_21_21.png", Mentari TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://nextgenz.my.id/event/pidio/play.mpd?id=8237&type=drm
@@ -247,14 +245,14 @@ https://nextgenz.my.id/event/pidio/play.mpd?id=8237&type=dash
 
 #KODIPROP:inputstream.adaptive.assured_buffer_length=30
 #KODIPROP:inputstream.adaptive.max_buffer_length=60
-#EXTINF:-1 tvg-id="My Kidz - [Channel 50].id" tvg-url="https://www.bevy.be/bevyfiles/indonesia.xml" tvg-logo="https://images.indihometv.com/assets/88_MYKIDZ_2025_03_17_14_58_58.png" group-title="KIDS ",MYKIDS
+#EXTINF:-1 tvg-id="MyKidz.id@SD" tvg-url="https://www.bevy.be/bevyfiles/indonesia.xml" tvg-logo="https://images.indihometv.com/assets/88_MYKIDZ_2025_03_17_14_58_58.png" group-title="KIDS ",MYKIDS
 https://cdnbal1.indihometv.com/atm/DASH/mykids/manifest.mpd
 
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ec31647c5c3b490bbb5c840ca3e96c9e:a28271a4ba4d085efa1f7738e0f82ea1 
-#EXTINF:-1 tvg-id="KidsTV.id" tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="Kids TV" tvg-logo="https://iili.io/JmoBUPI.png" group-title="KIDS ", Kids TV
+#EXTINF:-1 tvg-id="KidsTV.id@SD" tvg-url="https://bit.ly/IndonesiaEpg" tvg-name="Kids TV" tvg-logo="https://iili.io/JmoBUPI.png" group-title="KIDS ", Kids TV
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9041826689ae4f9c9619576d411fa989/index.mpd
 
 
